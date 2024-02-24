@@ -40,7 +40,7 @@ h1, h2, h2, h3, h4, h5, h6, p, ul {
   margin-top: 9.88px;
 }
 .header__pillar p {
-  color: #2A2776;
+  color: #2a2776;
   font-weight: 600;
   font-size: 15.4px;
 }
@@ -51,10 +51,10 @@ h1, h2, h2, h3, h4, h5, h6, p, ul {
 }
 .header__left button {
   border-radius: 10px;
-  border: 2px solid #008F6A;
+  border: 2px solid #008f6a;
   background: white;
   padding: 9.5px 73px;
-  color: #008F6A;
+  color: #008f6a;
   font-weight: 600;
   font-size: 18.4px;
   cursor: pointer;
@@ -62,7 +62,7 @@ h1, h2, h2, h3, h4, h5, h6, p, ul {
 }
 .header__left button:hover {
   color: white;
-  background: #008F6A;
+  background: #008f6a;
 }
 .header__phone {
   display: flex;
@@ -76,9 +76,94 @@ h1, h2, h2, h3, h4, h5, h6, p, ul {
   font-weight: 600;
   font-size: 18.4px;
 }
+.header__lines {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 .header__line {
   width: 22px;
   height: 4px;
-  background: #2B1E74;
+  background: #2b1e74;
   margin-top: 4px;
+  border-radius: 3px;
+}
+.header__line__second {
+  width: 13px;
+  height: 4px;
+  background: #2b1e74;
+  margin-top: 4px;
+  border-radius: 3px;
+}
+.header__navigation {
+  margin-top: 31px;
+}
+.header__navigation ul {
+  display: flex;
+  gap: 105px;
+}
+.header__navigation li {
+  font-weight: 600;
+  font-size: 19.4px;
+  cursor: pointer;
+}
+.header__band {
+  width: 100%;
+  border: 5px;
+  background: #008F6A;
+  height: 5px;
+  margin-top: 23.5px;
+}
+
+.hero__content {
+  margin-top: 77.5px;
+  display: flex;
+  gap: 5px;
+}
+.hero__left {
+  max-width: 708px;
+  width: 708px;
+}
+.hero__right {
+  width: 700px;
+}
+.hero__title {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 55px;
+  color: #2B1E74;
+}
+.hero__title span {
+  color: #008F6A;
+  margin-top: 12px;
+}
+.hero__description {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 26px;
+  color: #0C0834;
+}
+.hero__btn {
+  margin-top: 50px;
+  padding: 18px 38px;
+  background: #008F6A;
+  font-weight: 500;
+  font-size: 27px;
+  color: #F8F6F6;
+  border-radius: 5px;
+  border: 1px solid #008F6A;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hero__btn:hover {
+  background: #F8F6F6;
+  color: #008F6A;
+}
+.hero__band {
+  width: 100%;
+  border: 5px;
+  background: #008F6A;
+  height: 5px;
+  margin-top: 23.5px;
 }/*# sourceMappingURL=index.css.map */

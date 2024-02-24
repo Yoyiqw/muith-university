@@ -1,58 +1,90 @@
-.header{
-    &__content{
-        display: flex; 
-        align-items: center;
-        gap: 466px;
+.header {
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 466px;
+  }
+  &__right {
+    display: flex;
+    gap: 13px;
+    margin-top: 17px;
+  }
+  &__pillar {
+    margin-top: 9.88px;
+    p {
+      color: #2a2776;
+      font-weight: 600;
+      font-size: 15.4px;
     }
-    &__right{
-        display: flex;
-        gap: 13px;
-        margin-top: 17px;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    button {
+      border-radius: 10px;
+      border: 2px solid #008f6a;
+      background: white;
+      padding: 9.5px 73px;
+      color: #008f6a;
+      font-weight: 600;
+      font-size: 18.4px;
+      cursor: pointer;
+      transition: 0.3s;
     }
-    &__pillar{
-        margin-top: 9.88px;
-        p{
-            color: #2A2776;
-            font-weight: 600;
-            font-size: 15.4px;
-        }
+    button:hover {
+      color: white;
+      background: #008f6a;
     }
-    &__left{
-        display: flex;
-        align-items: center;
-        gap: 36px;
-        button{
-            border-radius: 10px;
-            border: 2px solid #008F6A;
-            background: white;
-            padding: 9.5px 73px;
-            color: #008F6A;
-            font-weight: 600;
-            font-size: 18.4px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-        button:hover{
-            color: white;
-            background: #008F6A;
-        }
+  }
+  &__phone {
+    display: flex;
+    gap: 10px;
+    img {
+      width: 22px;
+      height: 22px;
     }
-    &__phone{
-        display: flex;
-        gap: 10px;
-        img{
-            width: 22px;
-            height: 22px;
-        }
+  }
+  &__number {
+    font-weight: 600;
+    font-size: 18.4px;
+  }
+  &__lines{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  &__line {
+    width: 22px;
+    height: 4px;
+    background: #2b1e74;
+    margin-top: 4px;
+    border-radius: 3px;
+  }
+  &__line__second{
+    width: 13px;
+    height: 4px;
+    background: #2b1e74;
+    margin-top: 4px;
+    border-radius: 3px;
+  }
+  &__navigation {
+    margin-top: 31px;
+    ul {
+      display: flex;
+      gap: 105px;
     }
-    &__number{
-        font-weight: 600;
-        font-size: 18.4px;
+    li {
+      font-weight: 600;
+      font-size: 19.4px;
+      cursor: pointer;
     }
-    &__line{
-        width: 22px;
-        height: 4px;
-        background: #2B1E74;
-        margin-top: 4px;
-    }
+  }
+  &__band{
+    width: 100%;
+    border: 5px;
+    background: #008F6A;
+    height: 5px;
+    margin-top: 23.5px;
+  }
 }
