@@ -1,5 +1,9 @@
 .header {
-
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+  }
   &__right {
     display: flex;
     gap: 13px;
@@ -43,7 +47,7 @@
   }
   &__number {
     font-weight: 600;
-    font-size: 18.4px;
+    font-size: 15px;
   }
   &__lines {
     display: flex;
@@ -66,10 +70,9 @@
   }
   &__navigation {
     margin-top: 31px;
-    padding: 0px 61px;
     ul {
       display: flex;
-      gap: 80px;
+      gap: 90px;
     }
     li {
       font-weight: 600;
@@ -90,15 +93,141 @@
   .header {
     &__navigation {
       ul {
+        gap: 85px;
+      }
+    }
+  }
+}
+@media screen and (max-width:1288px) {
+  .header {
+    &__content{
+      gap: 320px;
+    }
+    &__navigation {
+      ul {
         gap: 70px;
       }
     }
   }
 }
-@media screen and(max-width:1276px) {
+@media screen and (max-width:1220px) {
   .header {
-    &__number {
-      font-size: 15px;
+    &__content{
+      gap: 220px;
+    }
+    &__navigation {
+      ul {
+        gap: 50px;
+      }
+    }
+  }
+}
+@media screen and (max-width:1119px) {
+  .header {
+    &__content{
+      gap: 202px;
+    }
+    &__navigation {
+      ul {
+        gap: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:1063px) {
+  .header {
+    &__content{
+      gap: 90px;
+    }
+    &__navigation {
+      li{
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media screen and (max-width:989px) {
+  .header {
+    &__content{
+      gap: 30px;
+    }
+    &__navigation {
+      ul {
+        gap: 37px;
+      }
+    }
+  }
+}
+@media screen and (max-width:985px) {
+  .header {
+    &__content{
+      gap: 30px;
+    }
+    &__navigation {
+      ul {
+        gap: 37px;
+      }
+    }
+  }
+}
+@media screen and (max-width:929px) {
+  .header {
+
+    &__content{
+      gap: 160px;
+    }
+    &__phone{
+      display: none;
+    }
+    &__navigation {
+      display: none;
+        }
+  }
+}
+@media screen and (max-width:682px) {
+  .header {
+
+    &__content{
+      gap: 10px;
+    }
+  }
+}
+@media screen and (max-width:532px) {
+  .header {
+    &__content{
+      gap: 204px;
+    }
+    &__left{
+      button{
+        display: none;
+      }
+    }
+    &__right{
+      img{
+        width: 60%;
+      }
+    }
+  }
+}
+@media screen and (max-width:436px) {
+  .header {
+    &__content{
+      gap: 135px;
+    }
+  }
+}
+@media screen and (max-width:368px) {
+  .header {
+    &__content{
+      gap: 100px;
+    }
+  }
+}
+@media screen and (max-width:332px) {
+  .header {
+    &__content{
+      gap: 80px;
     }
   }
 }

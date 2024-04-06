@@ -1,0 +1,45 @@
+.diploma{
+    margin-top: 55px;
+    &__content{
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 16px 27px;
+    }
+    &__title{
+        font-weight: 500;
+        font-size: 70px;
+    }
+    &__box{
+        padding: 10px 10px;
+        max-width: 530px;
+        background: #E7E3FF;
+        border-radius: 10px;
+        display: flex;
+        column-gap: 20px;
+    }
+    &__wich{
+        margin-top: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 36px;
+    }
+    &__fix{
+        margin-top: 11px;
+        display: flex;
+        column-gap: 5px;
+        cursor: pointer;
+        p{
+            font-weight: 500;
+            font-size: 25px;
+            color:#2B1E74;
+        }
+    }
+    &__another{
+        h1{
+            font-weight: 600;
+            font-size: 28px;
+            width: 283px;
+        }
+    }
+}

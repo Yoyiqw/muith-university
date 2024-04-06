@@ -1,0 +1,39 @@
+.reception {
+  margin-top: 55px;
+  &__content {
+    border-radius: 10px;
+    background: #fff;
+    padding: 16px 27px;
+  }
+  &__title {
+    font-size: 70px;
+    font-weight: 500;
+  }
+  &__description {
+    max-width: 587px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #676363;
+    margin-top: 35px;
+  }
+  &__grants {
+    margin-top: 45px;
+    max-width: 200px;
+    background: #e7e3ff;
+    border-radius: 10px;
+    padding: 13px 12px;
+    h1 {
+        max-width: 170px;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    img {
+      padding-left: 120px;
+      margin-top: 28px;
+    }
+  }
+  &__box {
+    display: flex;
+    column-gap: 20px;
+  }
+}
