@@ -1,9 +1,5 @@
 .header {
-  &__content {
-    display: flex;
-    align-items: center;
-    gap: 466px;
-  }
+
   &__right {
     display: flex;
     gap: 13px;
@@ -49,7 +45,7 @@
     font-weight: 600;
     font-size: 18.4px;
   }
-  &__lines{
+  &__lines {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -61,7 +57,7 @@
     margin-top: 4px;
     border-radius: 3px;
   }
-  &__line__second{
+  &__line__second {
     width: 13px;
     height: 4px;
     background: #2b1e74;
@@ -70,9 +66,10 @@
   }
   &__navigation {
     margin-top: 31px;
+    padding: 0px 61px;
     ul {
       display: flex;
-      gap: 105px;
+      gap: 80px;
     }
     li {
       font-weight: 600;
@@ -80,11 +77,28 @@
       cursor: pointer;
     }
   }
-  &__band{
+  &__band {
     width: 100%;
     border: 5px;
-    background: #008F6A;
+    background: #008f6a;
     height: 5px;
     margin-top: 23.5px;
+  }
+}
+
+@media screen and (max-width: 1422px) {
+  .header {
+    &__navigation {
+      ul {
+        gap: 70px;
+      }
+    }
+  }
+}
+@media screen and(max-width:1276px) {
+  .header {
+    &__number {
+      font-size: 15px;
+    }
   }
 }

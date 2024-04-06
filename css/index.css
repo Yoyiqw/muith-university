@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Inter";
+  background: #f7f9fd;
 }
 
 li {
@@ -16,7 +17,15 @@ a {
   color: #000;
 }
 
-h1, h2, h2, h3, h4, h5, h6, p, ul {
+h1,
+h2,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   padding: 0;
   margin: 0;
 }
@@ -97,10 +106,11 @@ h1, h2, h2, h3, h4, h5, h6, p, ul {
 }
 .header__navigation {
   margin-top: 31px;
+  padding: 0px 61px;
 }
 .header__navigation ul {
   display: flex;
-  gap: 105px;
+  gap: 80px;
 }
 .header__navigation li {
   font-weight: 600;
@@ -115,6 +125,11 @@ h1, h2, h2, h3, h4, h5, h6, p, ul {
   margin-top: 23.5px;
 }
 
+@media screen and (max-width: 1422px) {
+  .header__navigation ul {
+    gap: 70px;
+  }
+}
 .hero__content {
   margin-top: 77.5px;
   display: flex;
@@ -126,6 +141,9 @@ h1, h2, h2, h3, h4, h5, h6, p, ul {
 }
 .hero__right {
   width: 700px;
+}
+.hero__right img {
+  width: 100%;
 }
 .hero__title {
   display: flex;
@@ -166,4 +184,45 @@ h1, h2, h2, h3, h4, h5, h6, p, ul {
   background: #008F6A;
   height: 5px;
   margin-top: 23.5px;
+}
+
+.direction {
+  margin-top: 52px;
+}
+.direction__title {
+  font-weight: 500;
+  font-size: 69px;
+}
+.direction__content {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 16px 27px;
+}
+.direction__box {
+  margin-top: 45px;
+  width: 250px;
+  border-radius: 10px;
+  background: #E7E3FF;
+  font-weight: 500;
+  padding: 28px 19px;
+}
+.direction__box div {
+  background: #707574;
+  width: 100%;
+  height: 5px;
+  margin-top: 14px;
+}
+.direction__box h1 {
+  font-size: 28px;
+  color: #000;
+}
+.direction__box p {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #888585;
+}
+.direction__education {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 34px;
 }/*# sourceMappingURL=index.css.map */
