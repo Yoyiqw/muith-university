@@ -43,3 +43,40 @@
         }
     }
 }
+
+@media screen and (max-width:1025px) {
+    .diploma{
+        &__wich{
+            justify-content: center;
+        }
+    }
+}
+@media screen and (max-width:945px) {
+    .diploma{
+        &__title{
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width:536px) {
+    .diploma{
+        &__title{
+            font-size: 30px;
+        }
+        &__box{
+            display:block;
+        }
+    }
+}
+@media screen and (max-width:436px) {
+    .diploma{
+        &__box{
+            max-width: 180px;
+        }
+        &__another{
+            h1{
+                font-size: 17px;
+            }
+        }
+    }
+}

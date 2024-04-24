@@ -1,0 +1,40 @@
+.ribbon{
+    margin-top: 55px;
+    &__content {
+      border-radius: 10px;
+      background: #fff;
+      padding: 16px 28px;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 55px;
+    }
+    &__box{
+        max-width: 360px;
+        border-radius: 10px;
+        box-shadow:  0px 0px 10px 1px #000;
+
+        img{
+            max-width: 360px;
+            border-radius: 10px;
+        }
+        h1{
+            padding: 15px 0px 0px 18px;
+            color: #3A3D64;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        p{
+            padding: 8px 0px 30px 18px;
+            color: #3A3D64;
+            font-weight: 500;
+            font-size: 17px;
+        }
+    }
+    &__block{
+        margin-top: 40px;
+        display: flex;
+        column-gap: 40px;
+    }
+   
+}

@@ -1,0 +1,41 @@
+.burgerMenu {
+  margin-top: 30px;
+  background: #f7f9fd;
+  &__left {
+    background: red;
+    padding: 16px 10px;
+    display: flex;
+    border-radius: 20px;
+    max-width: 873px;
+  }
+  &__btn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 40px;
+    button {
+      display: flex;
+      padding: 5px 10px;
+      color: #000;
+      font-weight: 500;
+      font-size: 20px;
+      border: none;
+      background: #e7e3ff;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover{
+      color: #fff;
+      background: #008f6a;
+    }
+  }
+  ul {
+    li {
+      font-size: 18px;
+      font-weight: 400;
+      color: #000;
+      margin-bottom: 10px;
+    }
+  }
+}

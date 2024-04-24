@@ -1,0 +1,43 @@
+.programs{
+    margin-top: 55px;
+  &__content {
+    border-radius: 10px;
+    background: #fff;
+    padding: 16px 28px;
+  }
+  
+  &__title {
+    font-weight: 500;
+    font-size: 55px;
+  }
+  &__select{
+    padding: 18px 286px 18px 10px;
+    color: gray;
+    max-width: 100%;
+    font-weight: 500;
+    font-size: 21px;
+    border-radius: 10px;
+    outline: none;
+  }
+  &__dropdown{
+    display: flex;
+    column-gap: 73px;
+    flex-wrap: wrap;
+  }
+  &__box{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    button{
+        margin-top: 35px;
+        padding: 12px 69px;
+        background: #fff;
+        border: 1px solid #008F6A;
+        border-radius: 50px;
+        font-weight: 500;
+        font-size: 21px;
+        color: #0C0834;
+        cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.creative {
+  margin-top: 70px;
+
+  &__content {
+    margin-top: 55px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 16px 27px;
+    h1 {
+      font-weight: 600;
+      font-size: 55px;
+      color: #0c0834;
+    }
+    
+    li {
+      list-style: inside;
+      font-weight: 500;
+      font-size: 22px;
+      color: #333334;
+    }
+  }
+  &__title {
+    color: #2b1e74;
+    font-weight: 600;
+    font-size: 65px;
+  }
+  &__descrtiption{
+    max-width: 1320px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333334;
+    padding-top: 50px;
+}
+&__end{
+    max-width: 1320px;
+    font-weight: 500;
+    font-size: 22px;
+    color: #333334;
+}
+}

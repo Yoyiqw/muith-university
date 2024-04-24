@@ -34,6 +34,30 @@
   }
   &__box {
     display: flex;
+    flex-wrap: wrap;
     column-gap: 20px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .reception{
+    &__title{
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width:566px) {
+  .reception{
+    &__box{
+      justify-content: center;
+    }
+  }
+}
+@media screen and (max-width:500px) {
+  .reception{
+    &__title{
+      font-size: 30px;
+    }
   }
 }

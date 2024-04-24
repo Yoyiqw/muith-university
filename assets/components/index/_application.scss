@@ -1,0 +1,91 @@
+.aplication {
+  margin-top: 55px;
+  background: #008F6A;
+  &__content {
+    border-radius: 10px;
+    padding: 16px 28px;
+  }
+  &__title{
+    font-weight: 500;
+    font-size: 42px;
+    color: #fff;
+  }
+  &__label{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 18px;
+    margin-top: 55px;
+  }
+  &__input{
+    max-width: 250px;
+    padding: 28px 25px;
+    color: #776F6F;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  &__btn{
+    padding: 24px 65px;
+    background: #0C0834;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  &__condition{
+    margin-top: 29px;
+    display: flex;
+    column-gap: 19px;
+  }
+  &__description{
+    font-weight: 500;
+    color: #fff;
+    font-size: 15px;
+  }
+  &__mark{
+    width: 37px;
+    border: none;
+    border-radius: 5px;
+  }
+  &__inputOne{
+    max-width: 270px;
+    padding: 28px 25px;
+    color: #776F6F;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  &__inputTwo{
+    max-width: 270px;
+    padding: 28px 25px;
+    color: #776F6F;
+    font-size: 21px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  &__btnOne{
+    padding: 24px 65px;
+    background: #0C0834;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  &__labelOne{
+    display: flex;
+    flex-wrap: wrap;
+
+    column-gap: 160px;
+    margin-top: 55px;
+  }
+}

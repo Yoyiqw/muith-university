@@ -70,3 +70,59 @@
     }
   }
 }
+
+@media screen and (max-width:1400px) {
+  .faculties{
+    &__education{
+      justify-content: center;
+    }
+    ul{
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .faculties{
+    &__title{
+      text-align: center;
+    }
+  }
+}
+@media screen and (max-width:558px) {
+  .faculties{
+    &__title{
+      font-size: 50px;
+    }
+  }
+}
+@media screen and (max-width:520px) {
+  .faculties{
+    ul{
+      font-size: 10px;
+    }
+    &__box{
+      max-width: 180px;
+      h1{
+        font-size: 15px;
+      }
+      p{
+        font-size: 12px;
+      }
+      img{
+        padding-left: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:425px) {
+  .faculties{
+    &__title{
+      font-size: 30px;
+    }
+    &__btn{
+      padding: 10px 2px;
+    }
+  }
+}

@@ -75,3 +75,39 @@
     gap: 21px;
   }
 }
+
+
+@media screen and (max-width:1418px) {
+  .rector{
+    &__fix{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+@media screen and (max-width:999px) {
+  .rector{
+    ul{
+      flex-wrap: wrap;
+    }
+  }
+}
+@media screen and (max-width:774px) {
+  .rector{
+    &__photo{
+      max-width: 298px;
+      flex-wrap: wrap;
+    }
+  }
+}
+@media screen and (max-width:400px) {
+  .rector{
+    &__photo{
+      max-width: 200px;
+      flex-wrap: wrap;
+      img{
+        width: 200px;
+      }
+    }
+  }
+}

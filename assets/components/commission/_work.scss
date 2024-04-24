@@ -1,0 +1,31 @@
+.work {
+  margin-top: 55px;
+  &__content {
+    border-radius: 10px;
+    background: #fff;
+    padding: 16px 28px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 55px;
+  }
+
+  &__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__box{
+    border-right: 1px solid black;
+    max-width: 300px;
+    h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    p{
+        font-weight: 600;
+        font-size: 23px;
+    }
+  }
+}

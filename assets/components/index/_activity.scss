@@ -1,0 +1,18 @@
+.activity{
+    margin-top: 55px;
+  &__content {
+    border-radius: 10px;
+    background: #fff;
+    padding: 16px 28px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 55px;
+  }
+  &__description{
+    font-weight: 500;
+    font-size: 22px;
+    color: #333334;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,83 @@
+.program{
+    margin-top: 55px;
+    &__content {
+        border-radius: 10px;
+        background: #fff;
+        padding: 16px 27px;
+    }
+    &__title{
+        font-weight: 500;
+        font-size: 55px;
+    }
+    &__block{
+        max-width: 370px;
+        background: #E7E3FF;
+        border-radius: 10px;
+        padding: 18px 30px;
+        p{
+            font-weight: 500;
+            font-size: 23px;
+            color: gray;
+        }
+        h1{
+            font-weight: 600;
+            font-size: 21px;
+            color: #0C0834;
+            margin-top: 10px;
+        }
+    }
+    &__btns{
+        margin-top: 82px;
+        gap: 15px;
+        display: flex;
+    }
+    &__btnTwo{
+        padding: 12px 15px;
+        background: #fff;
+        color: #008F6A;
+        border: none;
+        font-weight: 500;
+        font-size: 14px;
+        border: 1px solid #008F6A;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    &__box{
+        margin-top: 53px;
+        display: flex;
+        column-gap: 22px;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 35px;
+    }
+    &__btnOne{
+        padding: 12px 15px;
+        background: #008F6A;
+        color: #fff;
+        border: none;
+        font-weight: 500;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+    }
+    &__btn{
+        display: flex;
+        margin: 40px auto;
+        padding: 23px 58px;
+        border: none;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 23px;
+        background: #008F6A;
+        color: #fff;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    &__btn:hover{
+        background: #fff;
+        color: #008F6A;
+        border: 1px solid #008F6A;
+    }
+}

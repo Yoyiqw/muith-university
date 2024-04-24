@@ -11,12 +11,14 @@
         color: #0C0834;
     }
     &__box{
+        margin-top: 45px;
         display: flex;
+        flex-wrap: wrap;
         column-gap: 20px;
     }
     
     &__block{
-        max-width: 427px;
+        max-width: 380px;
         background: #E7E3FF;
         border-radius: 10px;
        position: relative;
@@ -25,13 +27,15 @@
             font-size: 25px;
             padding: 15px 0px 0px 10px;
         }
-       
+       img{
+        max-width: 380px;
+       }
     }
     &__fix{
         font-weight: 500;
         font-size: 20px;
         color:#645C96;
-        padding: 90px 0px 15px 310px;
+        padding: 90px 0px 15px 253px;
 
     }
     &__date{
@@ -39,8 +43,8 @@
         font-weight: 500;
         font-size: 20px;
         color:#645C96;
-        top: 430px;
-        left: 310px;
+        top: 405px;
+        left: 253px;
     }
     &__btn{
         padding: 16px 67px;
@@ -58,5 +62,46 @@
     &__btn:hover{
         background: #E7E3FF;
         color: #008F6A;
+    }
+}
+
+@media screen and (max-width:1355px) {
+    .news{
+        &__box{
+            flex-direction: column;
+            align-content: center;
+            row-gap: 20px;
+        }
+        &__title{
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width:375px) {
+    .news{
+        &__title{
+            text-align: center;
+            font-size: 30px;
+        }
+        &__block{
+            max-width: 205px;
+            img{
+                max-width: 205px;
+            }
+        }
+        &__date{
+            left: 105px;
+        }
+        &__fix{
+            padding-left: 60px;
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .news{
+        &__btn{
+            font-size: 15px;
+        }
     }
 }
