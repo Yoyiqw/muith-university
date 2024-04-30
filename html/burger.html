@@ -13,13 +13,39 @@
         <div class="container">
             <div class="burgerMenu__content">
                 <div class="burgerMenu__left">
-                    <div class="burgerMenu__btn">
-                        <button>Факультеты</button>
-                        <button>Абитуриентам</button>
-                        <button>Об Университете</button>
-                        <button>Студентам</button>
+                    <div class="burgerMenu__dropdown">
+                        <select class="burgerMenu__select" id="color-dropdown">
+                            <option class="burgerMenu__option">Программирование</option>
+                            <option class="burgerMenu__option">Программирование</option>
+                            <option class="burgerMenu__option">Программирование</option>
+                            <option class="burgerMenu__option">Программирование</option>
+                        </select>
+                        <select class="burgerMenu__select" id="color-dropdown">
+                            <option class="burgerMenu__option">Авто</option>
+                            <option class="burgerMenu__option">Авто</option>
+                            <option class="burgerMenu__option">Авто</option>
+                            <option class="burgerMenu__option">Авто</option>
+                        </select>
+                        <select class="burgerMenu__select" id="color-dropdown">
+                            <option class="burgerMenu__option">Таджик</option>
+                            <option class="burgerMenu__option">Таджик</option>
+                            <option class="burgerMenu__option">Таджик</option>
+                            <option class="burgerMenu__option">Таджик</option>
+                        </select>
+                        <select class="burgerMenu__select" id="color-dropdown">
+                            <option class="burgerMenu__option">Таджик</option>
+                            <option class="burgerMenu__option">Таджик</option>
+                            <option class="burgerMenu__option">Таджик</option>
+                            <option class="burgerMenu__option">Таджик</option>
+                        </select>
                     </div>
-                    <ul>
+                    <div class="burgerMenu__btn">
+                        <button id="btn1">Факультеты</button>
+                        <button id="btn2">Абитуриентам</button>
+                        <button id="btn3">Об Университете</button>
+                        <button id="btn4">Студентам</button>
+                    </div>
+                    <ul id="myList">
                         <li>Программирование</li>
                         <li>Программирование</li>
                         <li>Программирование</li>
@@ -35,35 +61,37 @@
                 </div>
                 <div class="burgerMenu__right">
                     <div class="burgerMenu__box">
-                        <div class="burgerMenu__number">
-                            <div class="burgerMenu__commission">
-                                <h1></h1>
-                                <p></p>
-                                <p></p>
+                        <div class="burgerMenu__commission">
+                            <h1>Приемная комиссия</h1>
+                            <div class="burgerMenu__number">
+                                <p>+996 (312) 88-26-84</p>
+                                <p>+996 (312) 88-26-84</p>
                             </div>
-                            <div class="burgerMenu__student">
-                                <h1></h1>
-                                <p></p>
-                            </div>
-                            <div class="burgerMenu__work">
-                                <h1></h1>
-                                <p></p>
-                            </div>
-                            <div class="burgerMenu__connection">
-                                <div class="burger__reverse">
-                                    <p></p>
-                                </div>
-                                <div class="burgerMenu__social">
-                                    <img src="" alt="">
-                                    <img src="" alt="">
-                                </div>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="burgerMenu__student">
+                        <h1>Для студентов</h1>
+                        <p>+996 (312) 88-26-84</p>
+                    </div>
+                    <div class="burgerMenu__work">
+                        <h1>График работы:</h1>
+                        <p>Пн-Пт 8:00-17:00</p>
+                    </div>
+                    <div class="burgerMenu__connection">
+                        <div class="burgerMenu__reverse">
+                            <p>Обратная связь</p>
+                        </div>
+                        <div class="burgerMenu__social">
+                            <img src="/assets/icons/what.svg" alt="">
+                            <img src="/assets/icons/Instagram.svg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </section>
+    <script src="/JavaScript/index.js"></script>
 </body>
 
 </html>

@@ -1,12 +1,18 @@
 .burgerMenu {
   margin-top: 30px;
   background: #f7f9fd;
+  &__content {
+    display: flex;
+    gap: 20px;
+  }
   &__left {
-    background: red;
+    width: 873px;
+    background: #ffffff;
     padding: 16px 10px;
     display: flex;
     border-radius: 20px;
     max-width: 873px;
+    height: 610px;
   }
   &__btn {
     display: flex;
@@ -25,7 +31,7 @@
       cursor: pointer;
       transition: 0.3s;
     }
-    button:hover{
+    button:hover {
       color: #fff;
       background: #008f6a;
     }
@@ -36,6 +42,177 @@
       font-weight: 400;
       color: #000;
       margin-bottom: 10px;
+    }
+  }
+  &__right {
+    width: 427px;
+    background: #e7e3ff;
+    padding: 16px 30px;
+    border-radius: 20px;
+    height: 610px;
+  }
+  &__number {
+    margin-top: 10px;
+    display: flex;
+    gap: 50px;
+    p {
+      border-radius: 10px;
+      background: #ffffff;
+      padding: 5px;
+      font-size: 18px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+  }
+  &__commission {
+    h1 {
+      color: #000;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  &__student {
+    margin-top: 20px;
+    h1 {
+      color: #000;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    p {
+      margin-top: 10px;
+      background: #ffffff;
+      border-radius: 10px;
+      padding: 5px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  }
+  &__work {
+    h1 {
+      color: #000;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    p {
+      margin-top: 10px;
+      border-radius: 10px;
+      padding: 5px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+  }
+  &__connection {
+    margin-top: 256px;
+  }
+  &__reverse {
+    background: #008f6a;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 367px;
+    height: 32px;
+    cursor: pointer;
+  }
+  &__social {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    img {
+      background: var(--blue, #0c0834);
+      border-radius: 10px;
+      padding: 2px 75px 2px 75px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      overflow: hidden;
+      cursor: pointer;
+    }
+  }
+  &__dropdown {
+    display: none;
+  }
+  &__select {
+    width: 400px;
+    padding: 6px 10px 7px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #e7e3ff;
+    transition: 0.3s;
+  }
+  &__select:hover {
+    background: #008f6a;
+    color: #fff;
+  }
+  &__option {
+    background: #e7e3ff;
+    color: #000;
+  }
+  &__option:hover {
+    background: red;
+  }
+
+  @media screen and (max-width: 375px) {
+    .burgerMenu {
+      &__dropdown {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      &__right {
+        width: 350px;
+        margin-left: 5px;
+      }
+      &__content {
+        flex-wrap: wrap;
+      }
+      &__number {
+        p {
+          font-size: 13px;
+        }
+      }
+      &__left {
+        margin: 0px 0px 200px 5px;
+        height: 0px;
+        background: transparent;
+      }
+
+      &__btn {
+        display: none;
+      }
+    }
+    &__reverse {
+      padding: 5px 0px;
+    }
+    .container {
+      padding: 0px 0px;
+    }
+    &__social {
+      gap: 19px;
+    }
+    ul {
+      display: none;
     }
   }
 }
