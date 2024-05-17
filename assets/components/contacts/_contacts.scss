@@ -1,0 +1,168 @@
+.contacts {
+  &__content {
+    h2 {
+      font-size: 65px;
+      font-weight: 600;
+      color: #2b1e74;
+      margin-top: 50px;
+    }
+  }
+  &__block {
+    margin-top: 41px;
+    padding: 16px 27px;
+    background: #ffffff;
+    border-radius: 20px;
+    h2 {
+      font-size: 55px;
+      font-weight: 600;
+      color: #0c0834;
+      margin: 16px 0px 27px 0px;
+    }
+  }
+  &__reception {
+    margin-top: 55px;
+    h2 {
+      font-size: 55px;
+      font-weight: 500;
+    }
+  }
+  &__box {
+    display: flex;
+    margin-top: 28px;
+  }
+  &__address {
+    width: 326px;
+    border-right: 2px solid #d4d9e2;
+    h2 {
+      width: 248px;
+      font-size: 30px;
+      font-weight: 600;
+      color: #0c0834;
+    }
+    p {
+      font-size: 23px;
+      font-weight: 600;
+      color: #000;
+      margin-top: 33px;
+    }
+    a {
+      margin-top: 7px;
+      display: block;
+      width: 285px;
+      word-break: break-all;
+      color: #192b8a;
+      font-size: 23px;
+      font-weight: 600;
+    }
+  }
+  &__work {
+    width: 280px;
+    border-right: 2px solid #d4d9e2;
+    margin-left: 28px;
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+      color: #0c0834;
+    }
+    p {
+      font-size: 23px;
+      font-weight: 600;
+      margin-top: 33px;
+    }
+  }
+  &__phone {
+    margin-left: 60px;
+    h2 {
+      font-size: 30px;
+      font-weight: 600;
+      color: #0c0834;
+    }
+    ul {
+      margin-top: 33px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    li {
+      font-size: 23px;
+      font-weight: 600;
+    }
+  }
+  &__btn {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 74px;
+    button {
+      padding: 13px 94px;
+      background: #008f6a;
+      border: none;
+      border-radius: 10px;
+      color: #ffffff;
+      font-size: 27px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  iframe {
+    width: 100%;
+  }
+  .contacts {
+    &__content {
+      h2 {
+        font-size: 29px;
+        font-weight: 600;
+      }
+    }
+    &__box {
+      flex-wrap: wrap;
+    }
+    &__address {
+      border-right: none;
+    }
+    &__work {
+      border-right: none;
+    }
+    &__phone {
+      border-right: none;
+    }
+    &__reception{
+        h2{
+            font-size: 28px;
+            font-weight: 500;
+        }
+    }
+    &__address{
+        width: 343px;
+        border: 1px solid black;
+        margin: 0 auto;
+        padding: 16px 18px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    &__box{
+        gap: 20px;
+    }
+    &__phone{
+        width: 343px;
+        border: 1px solid black;
+        margin: 0 auto;
+        padding: 16px 18px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    &__work{
+        width: 343px;
+        border: 1px solid black;
+        margin: 0 auto;
+        padding: 16px 18px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    &__btn{
+        margin: 32px 0px 0px 5px;
+    }
+  }
+}

@@ -1631,4 +1631,229 @@ ul {
   .uncos__read button {
     width: 300px;
   }
+}
+.contacts__content h2 {
+  font-size: 65px;
+  font-weight: 600;
+  color: #2b1e74;
+  margin-top: 50px;
+}
+.contacts__block {
+  margin-top: 41px;
+  padding: 16px 27px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.contacts__block h2 {
+  font-size: 55px;
+  font-weight: 600;
+  color: #0c0834;
+  margin: 16px 0px 27px 0px;
+}
+.contacts__reception {
+  margin-top: 55px;
+}
+.contacts__reception h2 {
+  font-size: 55px;
+  font-weight: 500;
+}
+.contacts__box {
+  display: flex;
+  margin-top: 28px;
+}
+.contacts__address {
+  width: 326px;
+  border-right: 2px solid #d4d9e2;
+}
+.contacts__address h2 {
+  width: 248px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #0c0834;
+}
+.contacts__address p {
+  font-size: 23px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 33px;
+}
+.contacts__address a {
+  margin-top: 7px;
+  display: block;
+  width: 285px;
+  word-break: break-all;
+  color: #192b8a;
+  font-size: 23px;
+  font-weight: 600;
+}
+.contacts__work {
+  width: 280px;
+  border-right: 2px solid #d4d9e2;
+  margin-left: 28px;
+}
+.contacts__work h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0c0834;
+}
+.contacts__work p {
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 33px;
+}
+.contacts__phone {
+  margin-left: 60px;
+}
+.contacts__phone h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #0c0834;
+}
+.contacts__phone ul {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contacts__phone li {
+  font-size: 23px;
+  font-weight: 600;
+}
+.contacts__btn {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 74px;
+}
+.contacts__btn button {
+  padding: 13px 94px;
+  background: #008f6a;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  iframe {
+    width: 100%;
+  }
+  .contacts__content h2 {
+    font-size: 29px;
+    font-weight: 600;
+  }
+  .contacts__box {
+    flex-wrap: wrap;
+  }
+  .contacts__address {
+    border-right: none;
+  }
+  .contacts__work {
+    border-right: none;
+  }
+  .contacts__phone {
+    border-right: none;
+  }
+  .contacts__reception h2 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .contacts__address {
+    width: 343px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 16px 18px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .contacts__box {
+    gap: 20px;
+  }
+  .contacts__phone {
+    width: 343px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 16px 18px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .contacts__work {
+    width: 343px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 16px 18px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .contacts__btn {
+    margin: 32px 0px 0px 5px;
+  }
+}
+.applicationUp {
+  background: #008f6a;
+  margin: 50px 0 0 0;
+  padding-top: 30px;
+  text-align: center;
+}
+.applicationUp h2 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.applicationUp input[type=number]::-webkit-inner-spin-button,
+.applicationUp input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.applicationUp input[type=number] {
+  appearance: textfield;
+}
+.applicationUp__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.applicationUp__block input {
+  width: 330px;
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #888585;
+  border-width: 1px;
+  height: 50px;
+  padding: 0 0 0 10px;
+  outline: none;
+}
+.applicationUp__block button {
+  background: var(--blue, #0c0834);
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 340px;
+}
+.applicationUp__block button:hover {
+  transition: 0.5s;
+  background: #ffffff;
+  color: #0c0834;
+}
+.applicationUp__chekbox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.applicationUp__chekbox input {
+  width: 20px;
+  height: 20px;
+}
+.applicationUp__chekbox p {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
 }/*# sourceMappingURL=index.css.map */
