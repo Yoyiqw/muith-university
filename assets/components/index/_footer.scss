@@ -1,0 +1,118 @@
+.footer{
+    padding-top: 16px;
+    margin-top: 16px;
+    max-width: 100%;
+    background: #2b1e74;
+    display: flex;
+    &__content{
+        display: flex;
+        gap: 40px;
+    }
+    &__block{
+        background: #fffefe;
+        border-radius: 15px;
+        padding: 11px 16px 10px 16px;
+        h2{
+            color: #0c0834;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    &__box{
+        display: flex;
+        gap: 20px;
+    }
+    &__map{
+        border-radius: 20px;
+    }
+    &__list{
+        P{
+            color: #ffffff;
+            font-weight: 700;
+        }
+        li{
+            font-weight: 300;
+            color: #ffffff;
+        }
+
+    }
+    &__mobile{
+        &__map{
+            background: #fffefe;
+            border-radius: 15px;
+            padding: 11px 16px 10px 16px;
+            margin: 10px 0;
+            h2{
+                color: #0c0834;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+        &__dropdown{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        &__option{
+            background: #ffffff;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: rgba(112, 109, 109, 0.73);
+            padding: 15px;
+            outline: none;
+        }
+        &__option:hover{
+            background: #008f6a;
+            color: #ffffff;
+            transition: 0.5s;
+          }
+          .footer__feedback{
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            button{
+                background: #008f6a;
+                border-radius: 10px;
+                padding: 10px;
+                border: none;
+                color: #ffffff;
+                width: 343px;
+            }
+            &--block{
+                button{
+                    width: 166px;
+                    background: #ffffff;
+                }
+            }
+          }
+    }
+
+
+    @media (max-width:1100px) {
+        &__box{
+            flex-wrap: wrap;
+        }
+    }
+
+    @media (max-width:4000px) {
+        &__mobile{
+            display: none;
+        }
+    }
+
+    @media (max-width:650px) {
+        &__block{
+            display: none;
+        }
+        &__box{
+            display: none;
+        }
+        &__mobile{
+            display: block;
+        }
+    }
+
+    
+}

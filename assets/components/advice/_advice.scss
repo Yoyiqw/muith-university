@@ -1,3 +1,166 @@
-.advice{
-    
+.advice {
+  &__control {
+    h2 {
+      font-size: 65px;
+      font-weight: 600;
+      color: #2b1e74;
+      margin-top: 55px;
+    }
+  }
+  &__block {
+    padding: 16px 26px;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 55px;
+    h3 {
+      font-size: 45px;
+      font-weight: 600;
+      color: #0c0834;
+      margin-bottom: 55px;
+    }
+  }
+  &__content {
+    h2 {
+      color: #2b1e74;
+      font-size: 65px;
+      font-weight: 600;
+      margin-top: 55px;
+    }
+  }
+  &__box {
+    ul {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    li {
+      color: #000000;
+      max-width: 850px;
+      font-weight: 500;
+      font-size: 22px;
+    }
+  }
+  &__basic {
+    li {
+      list-style: inside;
+      color: #333334;
+      font-size: 22px;
+      font-weight: 500;
+    }
+    h3 {
+      margin-bottom: 40px;
+    }
+    ul {
+      margin-bottom: 40px;
+    }
+  }
+  &__function {
+    h3 {
+      margin-bottom: 40px;
+    }
+    li {
+      list-style: inside;
+      color: #333334;
+      font-size: 22px;
+      font-weight: 500;
+      max-width: 1003px;
+    }
+  }
+  &__document {
+    h3 {
+      margin: 40px 0px 25px 0px;
+    }
+    li {
+      list-style: inside;
+      color: #333334;
+      font-size: 22px;
+      font-weight: 500;
+      max-width: 733px;
+    }
+  }
+  &__employees{
+    h3{
+        margin: 40px 0px 40px 0px;
+    }
+    li{
+        list-style: inside;
+      color: #333334;
+      font-size: 22px;
+      font-weight: 500;
+      max-width: 1022px;
+    }
+  }
+}
+
+@media screen and (max-width:375px) {
+    .advice{
+        &__content{
+            h2{
+                font-size: 29px;
+                font-weight: 600;
+                margin-left: 17px;
+            }
+        }
+        &__block{
+            box-shadow: var(--one-box-shadow, 0px 4px 4px 0px rgba(0, 0, 0, 0.25));
+            h3{
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+        &__box{
+            li{
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        &__control{
+            h2{
+                font-size: 32px;
+                font-weight: 600;
+                margin-left: 17px;
+            }
+        }
+        &__basic{
+            h3{
+                font-size: 32px;
+                font-weight: 600;
+            }
+            li{
+                font-size: 16px;
+                font-weight: 500;
+            }
+            li::marker{
+                margin: 0;
+            }
+        }
+        &__function{
+            h3{
+                font-size: 32px;
+            }
+            li{
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        &__document{
+            h3{
+                font-size: 32px;
+            }
+            li{
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+        &__employees{
+            h3{
+                font-size: 32px;
+            }
+            li{
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
 }
