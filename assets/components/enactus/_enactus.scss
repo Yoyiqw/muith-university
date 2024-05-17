@@ -1,0 +1,64 @@
+.enactus {
+  &__content {
+    h2 {
+      color: #2b1e74;
+      font-size: 65px;
+      font-weight: 600;
+      margin-top: 55px;
+    }
+  }
+  &__box {
+    padding: 19px 27px;
+    background: #fff;
+    border-radius: 20px;
+    margin-top: 55px;
+    h3{
+      font-size: 55px;
+      font-weight:600;
+      color: #0c0834;
+    }
+    img{
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+  &__task {
+    h3 {
+      color: #2b1e74;
+      font-size: 55px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 22px;
+      color: #0c0834;
+      font-weight: 400;
+      margin-top: 40px;
+    }
+  }
+  &__task2 {
+    h4 {
+      color: #0c0834;
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 22px;
+      color: #0c0834;
+      font-weight: 400;
+    }
+  }
+  &__task3 {
+    h5{
+      color: #0c0834;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    li {
+      font-size: 22px;
+      color: #0c0834;
+      font-weight: 400;
+      list-style: inside;
+    }
+  }
+}
