@@ -1,0 +1,202 @@
+.university {
+  &__content {
+    h2 {
+      font-size: 65px;
+      font-weight: 600;
+      color: #2b1e74;
+      margin-top: 35px;
+    }
+  }
+  &__block {
+    margin-top: 60px;
+    padding: 16px 27px;
+    background: #fff;
+    border-radius: 55px;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    span {
+      font-weight: bold;
+    }
+    p {
+      margin-top: 45px;
+      max-width: 1320px;
+      font-size: 22px;
+      font-weight: 500;
+      color: #333334;
+    }
+    h3 {
+      font-size: 55px;
+      font-weight: 600;
+      color: #0c0834;
+      margin-bottom: 45px;
+    }
+  }
+  &__slide {
+    span {
+      font-weight: 600;
+      color: #008f6a;
+    }
+  }
+  &__row {
+    max-width: 340px;
+    width: 340px;
+    border-color: rgba(128, 128, 128, 0.8);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 16px 31px;
+    border-radius: 10px;
+    h4 {
+      font-size: 34px;
+      font-weight: 500;
+      color: #008f6a;
+    }
+    p {
+      color: #514d4d;
+      font-size: 19px;
+      font-weight: 400;
+      margin-top: 10px;
+    }
+  }
+  &__box {
+    display: flex;
+  }
+  &__ul {
+    ul {
+      gap: 0px;
+      margin-top: 45px;
+    }
+  }
+  &__control {
+    h4 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 45px;
+    }
+    ul {
+      gap: 9px;
+    }
+    li {
+      font-size: 20px;
+      font-weight: 500;
+      color: #333334;
+    }
+  }
+  &__teacher {
+    p {
+      font-size: 20px;
+    }
+  }
+  &__student {
+    ul {
+      gap: 0px;
+    }
+    li {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  &__mobility {
+    p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  &__library {
+    p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+  &__btn {
+    text-align: center;
+    margin-top: 55px;
+    button {
+      padding: 16px 58px;
+      background: #008f6a;
+      border-radius: 5px;
+      border: none;
+      color: #fff;
+      font-size: 23px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+  &__science {
+    p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    span {
+      color: #008f6a;
+      font-weight: 600;
+    }
+  }
+
+  &__practical {
+    p {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .university {
+    &__content {
+      h2 {
+        font-size: 32px;
+        margin-left: 17px;
+      }
+    }
+    &__block {
+      h3 {
+        font-size: 29px;
+      }
+    }
+    &__box {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .university {
+    &__content {
+      h2 {
+        font-size: 25px;
+        margin-left: 17px;
+      }
+    }
+    &__block {
+      h3 {
+        font-size: 25px;
+      }
+    }
+    &__box {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .university {
+    &__content {
+      h2 {
+        font-size: 32px;
+        margin-left: 17px;
+      }
+    }
+    &__block {
+      h3 {
+        font-size: 29px;
+      }
+    }
+    &__box {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+  }
+}
